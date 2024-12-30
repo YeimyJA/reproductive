@@ -2,13 +2,13 @@ package com.co.yeimy.reproductive.models;
 
 public class Audio {
     private String title;
-    private int totalReproductive, totalLike, raiting;
+    private int totalReproductive, totalLike, rating;
 
-    public int getRaiting() {
-        return raiting;
+    public int getRating() {
+        return rating;
     }
     public void setRaiting(int raiting) {
-        this.raiting = raiting;
+        this.rating = raiting;
     }
     public void like(){
         this.totalLike++;

@@ -4,7 +4,7 @@ public class Song extends Audio {
     private String album, singer, style;
 
     @Override
-    public int getRaiting() {
+    public int getRating() {
         if (getTotalLike() > 5000)
             return 8;
         else 
